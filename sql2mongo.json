@@ -1,0 +1,24 @@
+{
+    "limit": 100,
+    "collection": "test.movies",
+    "type": "query",
+    "projection": {
+        "title": "$title",
+        "year": "$year"
+    },
+    "query": {
+        "$and": [
+            {
+                "year": {
+                    "$gt": 1900
+                }
+            },
+            {
+                "title": {
+                    "$regex": "the",
+                    "$options": "i"
+                }
+            }
+        ]
+    }
+}
