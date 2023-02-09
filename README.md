@@ -1,7 +1,7 @@
 # SQL Query TO MONGODB Query convertion 
 
 
-We can give the input(SQL Query) by command line argument and sql2mon.json stores the converted MONGO 
+We can give the input(SQL Query) by command line argument and sql2mon.json stores the converted MONGO query
 
 sql2mongo.py connects to the database and that will retrive necessary fields from sql2mong.json and converted MONGO query 
 
